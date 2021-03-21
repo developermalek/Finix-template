@@ -1,0 +1,1103 @@
+.main-menu .container-fluid,.banner-section .container-fluid{
+    max-width: 1470px;
+}
+body,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+	max-width: 1250px;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+
+.gray-bg{
+	background-color: #f9fafb;
+}
+img{
+	max-width: 100%;
+}
+.text-col{
+	color: #606060;
+}
+/* main css start */
+.main-menu{
+    background-color: #fff;
+}
+ul.our-primary-menu{
+    
+}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+	color: #000 !important;
+	font-weight: 500;
+	padding: 25px 0;
+}
+ul.our-primary-menu li a i {
+	font-size: 12px;
+}
+ul.our-primary-menu li:hover> a{
+    color:#e83b3e !important ;
+}
+/* drodown menu start*/
+ul.our-primary-menu li{
+    position: relative;
+}
+ul li ul.dropdowns-menu {
+	background-color: #fff;
+	width: 260px;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	padding: 10px 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s ease-in-out;
+	transform: translateY(20px);
+	box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+ul li:hover ul.dropdowns-menu{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+ul li ul.dropdowns-menu li{}
+ul li ul.dropdowns-menu li a {
+	padding: 10px 20px !important;
+    transition: .5s ease-in-out;
+}
+ul li ul.dropdowns-menu li a:hover{
+    letter-spacing: 1px;
+}
+
+/*================== drodown menu end ============================*/
+
+
+.option-items-search {
+	width: 60px;
+	font-size: 19px;
+	border-right: 1px solid #ddd;
+	margin-right: 20px;
+}
+ul.our-primary-menu li a.active{
+    color: #ef5555 !important;
+}
+
+.option-items-call{
+    width:200px;
+}
+.option-item-icon{}
+.option-item-icon span {
+	font-size: 37px;
+	transform: rotate(-40deg);
+	display: inline-block;
+	color: #ef5555;
+	margin-right: 10px;
+}
+.option-item-info{}
+.option-item-info span {
+	margin-bottom: 4px;
+}
+.option-item-info a{
+    font-weight: 500;
+}
+
+.default-btn {
+	background-color: #e73c3e !important;
+	padding: 12px 42px;
+	position: relative;
+	z-index: 1;
+}
+.default-btn::after{
+    content: "";
+    background-color: #000 !important;
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+.default-btn:hover::after{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*======================== banner section css ==================*/
+
+
+.banner-section{
+    background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 870px;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner-content-wrap{
+    display: flex;
+    align-items: center;
+    height: 94vh;
+}
+.banner-text {
+
+}
+.banner-text h6{
+    font-weight: 400;
+    color: #e93c3e;
+    font-size: 19px;
+}
+.banner-text h1 {
+	font-size: 69px;
+	margin-bottom: 15px;
+}
+.banner-text p {
+	font-size: 18px;
+	max-width: 90%;
+	color: #767676;
+	line-height: 1.8rem;
+	margin-bottom: 29px;
+}
+.banner-social {
+	position: absolute;
+	bottom: 70px;
+	left: 240px;
+}
+
+.banner-social ul li span{
+    margin-right: 45px;
+    position: relative;
+}
+.banner-social ul li span::after {
+	content: "";
+	width: 35px;
+	height: 1px;
+	position: absolute;
+	top: 9px;
+	right: -44px;
+	background-color: #111;
+
+}
+.banner-social ul li a {
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+/* part 2 */
+/*============================ about section css start ==========================*/
+.about-img{
+	position: relative;
+}
+.about-img img{}
+.about-img-text{}
+.about-img-text {
+	background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png) no-repeat center center;
+	background-size: contain;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 5px;
+	right: 13%;
+	padding: 4px;
+}
+.about-text-inner{}
+.about-text-inner h1 {
+	color: #e73c3e;
+	font-size: 70px;
+}
+.about-text{}
+.finix-text{}
+.finix-text h6 {
+	color: #e73c3e;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.finix-text h1 {
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 14px;
+}
+.finix-text p {
+	color: #606060;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+}
+.finix-text strong {
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+}
+.finix-text ul {
+	margin-top: 15px;
+}
+.finix-text ul li {
+	color: #606060;
+	padding: 4px 0;
+	font-weight: 400;
+}
+.finix-text ul li::before {
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	margin-right: 13px;
+	font-size: 20px;
+	color: #e73c3e;
+}
+/*============================== about section css end ===========================*/
+
+
+/*=========================== Why-choose section css start ========================*/
+.why-choose-text{
+	position: relative;
+}
+.play-animation-button{
+	height: 80px;
+	width: 80px;
+	background-color: #fff;
+	line-height: 80px;
+	text-align: center;
+	font-size: 56px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 68px;
+	right: 43%;
+	color: #e73c3e;
+	transition: .5s;
+}
+.play-animation-button:hover{
+	color: #fff;
+	background-color: #e73c3e;
+}
+.play-animation-button::before{
+	content: "";
+	height: 80px;
+	width: 80px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #e73c3e;
+	border-radius: 50%;
+	animation: playbutton 1.4s ease-out infinite;
+}
+@keyframes playbutton{
+	0%,30%{
+		transform: scale(0);
+		opacity: 1;
+	}
+	50%{
+		transform: scale(1.5);
+		opacity: .7;
+	}
+	100%{
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+.choose-item.m-top1{
+	margin-top: 30px;
+}
+.choose-item.m-top2{
+	margin-top: 0;
+}
+.choose-item.m-top3{
+	margin-top: 0;
+}
+.choose-item.m-top4{
+	margin-top: -30px;
+}
+
+.choose-item {
+	background-color: #fff;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+	transition: all .3s;
+}
+.choose-item:hover{
+	transform: translateY(-10px);
+}
+.choose-item:hover .choose-icon i{
+	background-color: #e73c3e;
+	color: #fff;
+}
+
+.choose-item::before {
+	content: "";
+	position: absolute;
+	top: -110px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fdebeb;
+	height: 65%;
+	width: 90%;
+	border-radius: 50%;
+}
+.choose-item .choose-icon {
+	position: relative;
+	z-index: 999;
+	margin-bottom: 20px;
+}
+.choose-item .choose-icon i {
+	height: 90px;
+	width: 90px;
+	background-color: #fff;
+	line-height: 90px;
+	font-size: 35px;
+	border-radius: 50%;
+	color: #e73c3e;
+	transition: .5s ease-out;
+}
+.choose-item h4 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.choose-item p {
+	color: #606060;
+	font-size: 17px;
+}
+/*============================= Why-choose section css end ===================*/
+
+
+/* fullwebaite part 3,4 */
+/*============================ loan section css start =========================*/
+.loan-items-left {
+	margin-top: 25px;
+}
+.loan-items-left h3 {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 1.4;
+	margin-bottom: 0;
+	
+}
+.loan-item-content{
+	position: relative;
+}
+.loan-item-content::before {
+	content: "";
+	height: calc(100% - 100px);
+	width: 1px;
+	background-color: #e73c3e;
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.step-timeline {
+	position: relative;
+	margin-top: 30px;
+	padding-left: 65px;
+}
+
+.step-timeline span {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 40px;
+	background-color: #f9fafb;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #e73c3e;
+	border-radius: 50%;
+	font-size: 17px;
+	color: #e73c3e;
+
+}
+.step-timeline h4 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.step-timeline p {
+	color: #606060;
+	line-height: 1.8;
+}
+.loan-button{
+	margin-top: 25px;
+}
+
+/*================================== form right ==============================*/
+.claculation-rate{
+	background-color: #fdebeb;
+	padding: 50px;
+}
+.claculation-rate .finix-text h6{
+	color: #606060;
+}
+.mbottom{
+	margin-bottom: 35px;
+}
+.form-label {
+	color: #606060;
+}
+.calculate-form{}
+.form-calc .control-form {
+	border-radius: 0;
+	font-size: 16px;
+	height: 3rem;
+}
+.form-calc .select-form {
+	border-radius: 0;
+	font-size: 16px;
+	color: #606060;
+	height: 3rem;
+	border: none;
+}
+.form-calc .control-form:focus{
+	outline: none;
+}
+.form-calc .select-form:focus{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+/* =========================loan section css end ==============================*/
+
+
+/*========================== cll to action section css start ====================*/
+.call-to-action-bg {
+	background-color: #e73c3e;
+	padding: 65px 0 65px 50px;
+}
+.call-to-action-text {
+	border-right: 1px solid #f39e9f;
+	margin-right: 1px;
+}
+.call-to-action-text h2 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400;
+
+}
+.call-to-action-phone{}
+.call-to-action-phone span {
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	background-color: #fff;
+	text-align: center;
+	color: #e73c3e;
+	font-size: 40px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 35px;
+	transform: rotate(-40deg);
+}
+.call-to-action-phone a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+/*======================== call to action section css end ===================*/
+
+
+/*======================== our company value start=====================*/
+.our-company-items{}
+.our-company-items h2 {
+	font-size: 36px;
+}
+
+.values-item{
+	margin-bottom: 20px;
+}
+.values-item-icon {
+	width: 75px;
+	text-align: center;
+	margin-right: 33px;
+}
+.values-item-icon span {
+	font-size: 35px;
+	color: #e73c3e;
+}
+	
+
+.values-item-text {
+
+}
+.values-item-text h4{}
+.values-item-text p {
+	color: #606060;
+	line-height: 1.8;
+}
+.our-company-img{}
+.our-company-img img {
+	margin-top: 43px;
+}
+/*========================= our company value end======================*/
+
+
+/* day 33 part-6,7  */
+/*======================== services section start ==================== */
+
+.services-tab{}
+.services-tab-item {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+.services-tab-item li{
+	flex: 1 1 auto;
+}
+.services-tab-item li a.active span i {
+	color: #e73c3e;
+}
+.services-tab-item li a.active{
+	position: relative;
+}
+.services-tab-item li a.active::after {
+	content: "";
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	bottom: -21px;
+	left: 0;
+	background-color: #e73c3e;
+
+}
+
+.services-tab-item li span i {
+	color: #606060;
+	height: 80px;
+	width: 80px;
+	background-color: #fff;
+	line-height: 80px;
+	border-radius: 50%;
+	font-size: 36px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.09);
+	transition: .5s;
+}
+.services-tab-item li strong {
+	color: #000;
+	font-size: 21px;
+}
+
+.services-tab-content {
+	margin-bottom: 20px;
+}
+.services-tab-content h3 {
+	font-size: 25px;
+	margin-bottom: 17px;
+}
+.services-tab-content p {
+	color: #606060;
+	line-height: 1.8;
+}
+.services-list{}
+.services-list h3 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.services-list li {
+	position: relative;
+	padding: 6px 0px;
+}
+.services-list li::before {
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-color: #e73c3e;
+	border-radius: 50%;
+	margin-right: 12px;
+}
+
+/* ====================services section end ========================*/
+
+/*======================= client section css start =================*/
+.client-info-text {
+	margin-top: 39px;
+}
+.client-info-text p {
+	font-size: 25px;
+}
+.client-info-text h3 {
+	font-size: 17px;
+	color: #e73c3e;
+}
+.client-info-text span {
+	color: #606060;
+}
+.client-image{
+	position: relative;
+}
+.client-image::before {
+	content: "\f10e";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 13%;
+	margin: auto;
+	background-color: #fff;
+	text-align: center;	
+	border-radius: 50%;
+	font-size: 36px;
+	color: #e73c3e;
+	box-shadow: 0px 2px 28px rgba(0,0,0,.09);
+	transition: .5s;
+}
+.client-image:hover::before{
+	background-color: #e73c3e;
+	color: #fff;
+}
+/*======================= client section css end =================*/
+
+
+/*======================= team section css start ============== */
+.team-member-items{}
+
+.team-member-image{ 
+	position: relative;
+}
+.team-member-image img{}
+.team-social-icon {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+}
+.team-social-icon li {
+	margin: 0 3px;
+	transition: .4s ease-in-out;
+	transform: translateY(45px);
+	opacity: 0;
+	visibility: hidden;
+}
+.team-social-icon li a {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	color: #111;
+	transition: .4s;
+}
+.team-social-icon li a:hover{
+	background-color: #e73c3e;
+	color: #fff;
+}
+
+.team-member-items:hover .team-social-icon li{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.team-member-items .team-social-icon li:nth-child(1){
+	transition-delay: .1s;
+}
+.team-member-items .team-social-icon li:nth-child(2){
+	transition-delay: .2s;
+}
+.team-member-items .team-social-icon li:nth-child(3){
+	transition-delay: .3s;
+}
+.team-member-items .team-social-icon li:nth-child(4){
+	transition-delay: .4s;
+}
+
+
+
+.team-member-bio{ 
+	margin-top: 25px;
+}
+.team-member-bio h4 {
+	font-size: 20px;
+	color: #e73c3e;
+}
+/*============================== team section css end ==============*/
+
+
+/*================================ news section css start ===============*/
+.news-items{
+	transition: .5s;
+}
+.news-items span {
+	color: #e73c3e;
+	padding: 25px 0 15px;
+	display: inline-block;
+	font-family: rubik,sans-serif;
+}
+.news-items h4 {
+	font-size: 25px;
+	line-height: 1.4;
+	transition: .5s;
+	margin-bottom: 12px;
+}
+.news-items h4:hover{
+	color: #e73c3e;
+} 
+.news-items a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	transition: .5s;
+}
+.news-items:hover a{
+	color: #e73c3e;
+	letter-spacing: 1.5px;
+}
+/*=================== news section css end==================== */
+
+
+/*======================= footer section css===================== */
+.footer-section{
+	background-color: #111;
+}
+.footer-top{
+	border-bottom: 1px solid #333535;
+}
+.footer-bottom{}
+.footer-weiget{}
+.footer-weiget img {
+	margin-bottom: 28px;
+}
+.footer-weiget p {
+	line-height: 1.9;
+}
+.footer-weiget-social{}
+.footer-weiget-social ul{}
+.footer-weiget-social ul li strong{
+	margin-right: 10px;
+}
+.footer-weiget-social ul li a {
+	font-size: 17px;
+	color: #fff;
+	padding: 0px 7px;
+	display: inline-block;
+	transition: .5s;
+}
+.footer-weiget-social ul li a:hover{
+	color: #e73c3e;
+}
+
+.footer-weiget h4 {
+	border-bottom: 1px solid #333535;
+	margin-bottom: 22px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.quick-link{}
+.quick-link li a{
+	color: #fff;
+	transition: .5s;
+}
+.quick-link li{
+	transition: .5s;
+}
+.quick-link li:hover a{
+	color: #e73c3e;
+	letter-spacing: 1px;
+}
+
+.address i {
+	font-size: 20px;
+	margin-right: 24px;
+	margin-top: 6px;
+}
+.address .call-volume {
+	font-size: 27px !important;
+	width: 10px;
+	transform: rotate(-33deg);
+	margin-left: 7px;
+	margin-top: 13px;
+}
+.address-content a{
+	color: #fff;
+	text-decoration: none;
+	transition: .5s;
+}
+.address-content a:hover{
+	color: #e73c3e;
+}
+
+.copy-right-text p{
+	color: #606060;
+}
+.copy-right-text p a{
+	color: #fff;
+	text-decoration: none;
+	transition: .5s;
+}
+.copy-right-text p a:hover{
+	color: #e73c3e;
+}
+/* footer css end */
+/* Day  33 index css part end */
+
+/* other page css */
+.header-breadcrumb {
+	padding: 145px 0;
+	background: url(https://i.postimg.cc/z3mL4Fc9/bg.jpg) no-repeat;
+	background-position: center 17%;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: rgba(255, 255, 255, .78);
+	background-attachment: fixed;
+}
+
+
+/*==================== about page css ================*/
+
+.call-to-action-about {
+	position: relative;
+	left: 0;
+	bottom: -82px;
+}
+.about-client-item {
+	box-shadow: 1px 14px 20px 0 rgba(231,60,62,.09);
+	padding: 40px;
+	position: relative;
+}
+.about-client-item::after {
+	content: "\f10e";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	position: absolute;
+	top: 13px;
+	right: 25px;
+	color: #e73ced;
+	font-size: 65px;
+}
+.about-clien-bio{}
+.about-clien-bio img {
+	width: 58px;
+	margin-right: 15px;
+}
+.about-client-item p {
+	font-size: 17px;
+	color: #606060;
+	line-height: 1.8;
+}
+.about-items{
+	position: relative;
+}
+.about-items .about-image{
+	position: relative;
+}
+.about-items .about-image .img2 {
+	position: absolute;
+	top: 141px;
+	right: 10px;
+}
+.about-text-img {
+	box-shadow: 0 2px 28px 0 rgba(0,0,0,.09);
+	position: absolute;
+	z-index: 1;
+	background-color: #fff;
+	max-width: 470px;
+	padding: 30px 40px;
+	left: 0;
+	right: 0;
+	bottom: -136px;
+	margin: auto;
+	border-left: 2px solid #e73c3e;
+}
+.about-text-img h1 {
+	font-size: 80px;
+	font-weight: 400;
+	margin-right: 20px;
+}
+.about-text-img p {
+	font-size: 29px;
+	font-weight: 400;
+}
+/*=========================== service page css =================*/
+.service-page:hover .choose-icon i{
+	background-color: #fff;
+	color: #e73c3e;
+}
+.service-page{
+	background-color: #f9fafb;
+}
+.service-page::before {
+	content: "";
+	position: absolute;
+	top: -198px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fdebeb;
+	height: 100%;
+	width: 96%;
+	border-radius: 50%;
+	transition:all .5s ease-in-out;
+}
+.service-page:hover::before{
+	background-color: #e73c3e;
+}
+.service-page a{
+	text-decoration: none;
+	color: #e73c3e;
+	margin-top: 20px;
+	display: inline-block;
+}
+/* ===================funding page css=================== */
+.funding-text .finix-text ul li::before {
+	content: attr(data-number);
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	margin-right: 6px;
+	font-size: 20px;
+	color: #e73c3e;
+}
+
+.strong-text {
+	font-size: 16px !important;
+	color: #000 !important;
+	font-weight: 600 !important;
+}
+.transaction-section .container{
+	max-width: 1140px;
+	margin: auto;
+}
+.transaction-section{
+	position: relative;
+}
+.transaction-title .finix-text h3 {
+	font-size: 37px;
+}
+.transaction-item {
+	margin: auto;
+	text-align: center;
+}
+.transaction-item span {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	background-color: #fff;
+	line-height: 100px;
+	border-radius: 50%;
+	box-shadow: 0 0 29px 0 rgba(102,102,102,.1);
+	margin-bottom: 20px;
+}
+.transaction-item span i {
+	font-size: 36px;
+	color: #e73c3e;
+}
+.transaction-shape{}
+.shape,.shape2{
+	position: absolute;
+}
+.shape {
+	left: 35%;
+	bottom: 41%;
+}
+.shape2 {
+	right: 35%;
+	bottom: 46%;
+}
+/* ========================funding-form-area css =======================*/
+.funding-form-area .container{
+	max-width: 870px;
+	margin: auto;
+}
+
+.funding-form input {
+	padding: 15px;
+	border: 1px solid #cbcbcc;
+	border-radius: 0;
+	background: #f9fafb;
+	margin: 5px 0;
+}
+.funding-form input:focus{
+	box-shadow: none;
+	background-color: #f9fafb;
+	border-color: #cbcbcc;
+}
+.funding-form-check{
+
+}
+.funding-form-check a{
+	text-decoration: none;
+	color: #e73c3e;
+}
+.funding-input-check {
+	position: relative;
+	margin-right: 23px;
+	left: 11px;
+}
+.funding-input-check:hover{
+	border-color: #e73c3e;
+}
+.funding-input-check:checked{
+	background-color: #e73c3e;
+	border-color: #e73c3e;
+}
+/* .funding-input-check::before {
+	content: "";
+	height: 115%;
+	width: 100%;
+	display: inline-block;
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: scale(1);
+} */
+.funding-form-button{}
+.funding-form-button a {
+	padding: 12px 40px;
+}
+/*========================== loan-page css================== */
+.loan-page .container{
+	max-width: 1140px;
+}
+.about-text-inner h6 {
+	font-size: 18px;
+	margin-top: 8px;
+	line-height: 1.6;
+}
+.loans-items span {
+	font-size: 20px;
+	font-weight: 500;
+	position: relative;
+}
+.loans-items span::before {
+	content: attr(data-loan);
+	position: absolute;
+	top: 0;
+	left: 30px;
+	color: #e73c3e;
+	font-size: 73px;
+	opacity: 0.2;
+}
+.apply-now-form{
+	background-color: #e73c3e;
+	color: #fff;
+}
+.apply-now-btn .default-btn{
+	background-color: #fff !important;
+	color: #000;
+}
+.apply-now-btn .default-btn:hover{
+	color: #fff !important;
+}
+.eligibility-content{}
+.eligibility-content h2 {
+	font-weight: 400;
+	font-size: 36px;
+}
